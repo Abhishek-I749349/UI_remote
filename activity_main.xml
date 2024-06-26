@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:textSize="24sp"
+        android:background="@drawable/connect_button_background"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/function_executed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Function Executed: "
+        android:textSize="18sp"
+        android:layout_below="@id/connect_button"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/x_coordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Coordinate: "
+        android:textSize="18sp"
+        android:layout_below="@id/function_executed"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/y_coordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y Coordinate: "
+        android:textSize="18sp"
+        android:layout_below="@id/x_coordinate"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/z_coordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z Coordinate: "
+        android:textSize="18sp"
+        android:layout_below="@id/y_coordinate"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/theta_coordinate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theta Coordinate: "
+        android:textSize="18sp"
+        android:layout_below="@id/z_coordinate"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+</RelativeLayout>
